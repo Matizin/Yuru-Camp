@@ -1,0 +1,144 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: rgb(48, 50, 52);
+}
+
+.fs-4 {
+    color: rgb(255, 244, 244);
+}
+
+
+li:hover {
+    background-color: rgb(61, 61, 61);
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+ul,li,h6,nav {
+
+    display: inline;
+
+}
+
+h6 {
+    font-size: 3em;
+}
+
+.nav-link {
+    color: rgb(225, 107, 44);
+}
+
+#article-join-us {
+    text-align: center;
+    text-justify: auto;
+    height: auto;
+    width: auto;
+    padding: 16px 16px;
+    background-image: url("https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: top;
+    background-size: cover;
+}
+
+#article-join-us h6,
+#article-join-us p {
+    margin: 16px 0;
+    margin-top: 0;
+    color: rgb(255, 244, 244);
+}
+
+.text-orange {
+    color: rgb(225, 107, 44);
+}
+
+#button-join-us {
+    color: rgb(255, 244, 244);
+    background-color: rgb(48, 50, 52);
+}
+
+#article-read-more {
+    text-align: center;
+    text-justify: auto;
+    height: 250px;
+    width: auto;
+    padding: 16px 16px;
+    background-color: rgb(48, 50, 52);
+}
+
+#article-read-more h3,
+#article-read-more p {
+    margin: 16px 0;
+    margin-top: 0;
+    color: rgb(255, 244, 244);
+}
+
+#rent-tent {
+    text-align: center;
+    text-justify: auto;
+    height: auto;
+    width: auto;
+    padding: 16px 16px;
+    background-color: rgb(225, 107, 44);
+}
+
+#great-location,
+#campire {
+    text-align: center;
+    text-justify: auto;
+    height: auto;
+    width: auto;
+    padding: 16px 16px;
+}
+
+footer {
+    text-align: center;
+    height: 30px;
+    width: auto;
+    padding: 7px;
+    background-color: rgb(48, 50, 52);
+}
+
+footer p {
+    margin: 16px 0;
+    margin-top: 0;
+    color: rgb(255, 244, 244);
+}
+
+@media screen and (max-width: 420px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 0 8px;
+    }
+
+
+
+    li,
+    a {
+        width: 100%;
+        text-decoration: none;
+    }
+
+    li {
+        border: 1px solid black;
+    }
+
+    ul,li,h6,nav {
+        margin: 6px 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
